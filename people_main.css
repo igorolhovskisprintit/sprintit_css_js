@@ -1,0 +1,42 @@
+#o_wblog_blog_top > * {
+    padding-top: 150px;
+    justify-content:center
+}
+#o_wblog_post_top {
+    padding-top: 0;
+}
+.website_blog .navbar-nav {
+    display: none;
+}
+
+#o_wblog_blog_top + nav > div {
+    align-items:end;
+    justify-content:end;
+}
+
+#o_wblog_blog_top .o_wblog_post_title {
+    text-align:center;
+}
+
+.website_blog #o_wblog_post_search .oe_search_box {
+    height: unset !important;
+}
+
+html[lang='en-GB'] #o_wblog_post_content .css_editable_mode_hidden.text-muted {
+    display: none;
+}
+
+.website_blog .o_wblog_post_page_cover.cover_auto {
+    min-height: 500px !important;
+}
+.website_blog .o_record_cover_container .o_record_cover_component.o_record_cover_image {
+    background-position: 0 35%;
+}
+.website_blog .o_record_cover_container .o_record_cover_component.o_record_cover_image[style="background-image: none;"] {
+    background-image: url(https://people.sprintit.fi/web/image/188544/3N1A2097.jpg) !important;
+}
+
+.website_blog #o_wblog_post_search {
+    position: relative;
+    top: 15px;
+}
