@@ -44,3 +44,23 @@ html[lang='en-GB'] #o_wblog_post_content .css_editable_mode_hidden.text-muted {
 html .btn {
     font-family: unset !important
 }
+
+@media (max-width: 480px) {
+    #oe_structure_header_contact_1 {
+        position:static;
+        margin-top: 15px;
+    }
+    .s_banner.o_background_video b {
+        width: 100%;
+        display: block;
+    }
+    .s_banner.o_background_video .container-fluid {
+        padding-left: 1em;
+    }
+    .s_banner.o_background_video b > font {
+        font-size: 3em !important;
+    }
+    .navbar-light .navbar-toggler {
+        margin-left: auto;
+    }
+}
