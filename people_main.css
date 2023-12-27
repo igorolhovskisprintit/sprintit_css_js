@@ -46,10 +46,7 @@ html .btn {
 }
 
 @media (max-width: 480px) {
-    #oe_structure_header_contact_1 {
-        position:static;
-        margin-top: 15px;
-    }
+
     .s_banner.o_background_video b {
         width: 100%;
         display: block;
@@ -60,7 +57,21 @@ html .btn {
     .s_banner.o_background_video b > font {
         font-size: 3em !important;
     }
-    .navbar-light .navbar-toggler {
+
+}
+
+@media (max-width: 992px) {
+    header nav.navbar {
+        background-color: #003c57;
+    }
+    #oe_structure_header_contact_1 {
+        top: 9px;
+    }
+        #oe_structure_header_contact_1 {
+        position:static;
+        margin-top: 15px;
+    }
+        .navbar-light .navbar-toggler {
         margin-left: auto;
     }
 }
