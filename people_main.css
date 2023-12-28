@@ -75,6 +75,7 @@ html .btn {
     padding-top: 0;
     padding-bottom: 0;
     border-top: 1px solid;
+    padding-top: 0;
 }
 #website_cookies_bar .modal-content.oe_structure .row 
 {
@@ -95,6 +96,10 @@ html .btn {
     color: #fff !important;
     background-color: transparent !important;
 }
-#website_cookies_bar .modal-content.oe_structure .row .o_cookies_bar_text_policy {
+#website_cookies_bar .modal-content.oe_structure .row .o_cookies_bar_text_policy.btn {
     padding: 5px 10px !important;
+}
+#website_cookies_bar .modal-content.oe_structure .row .o_cookies_bar_text_policy:not(.btn) {
+    color: #fff;
+    text-decoration: underline;
 }
