@@ -103,3 +103,6 @@ html .btn {
     color: #fff;
     text-decoration: underline;
 }
+#website_cookies_bar .modal-content.oe_structure > .pt32 {
+    padding-top: 20px !important;
+}
