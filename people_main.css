@@ -74,7 +74,7 @@ html .btn {
     background-color: #003c57 !important;
     padding-top: 0;
     padding-bottom: 0;
-    border-top: 1px;
+    border-top: 1px solid;
 }
 #website_cookies_bar .modal-content.oe_structure .row 
 {
