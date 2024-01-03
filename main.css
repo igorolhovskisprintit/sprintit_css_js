@@ -18,6 +18,11 @@
     }
 }
 
+#top_menu_container ._cta.btn.btn-primary {
+    position:relative;
+    top: -10px;
+}
+
 #wrapwrap.homepage .s_cover h1 > font {
     hyphens: none !important;
 }
