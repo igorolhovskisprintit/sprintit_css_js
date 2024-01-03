@@ -1,0 +1,40 @@
+#website_cookies_bar .modal-content.oe_structure > *
+{
+    background-color: #003c57 !important;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-top: 1px solid;
+    padding-top: 0;
+}
+#website_cookies_bar .modal-content.oe_structure .row 
+{
+    align-items: center;
+    justify-content: center;
+}
+#website_cookies_bar .modal-content.oe_structure .row .btn {
+    border-color: #c26eaa !important;
+    color: #fff !important;
+    background-color: #c26eaa !important;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 15px !important;
+}
+#website_cookies_bar .modal-content.oe_structure .row .btn:hover {
+    border-color: #fff !important;
+    color: #fff !important;
+    background-color: transparent !important;
+}
+#website_cookies_bar .modal-content.oe_structure .row .o_cookies_bar_text_policy.btn {
+    padding: 5px 10px !important;
+}
+#website_cookies_bar .modal-content.oe_structure .row .o_cookies_bar_text_policy:not(.btn) {
+    color: #fff;
+    text-decoration: underline;
+}
+#website_cookies_bar .modal-content.oe_structure > .pt32 {
+    padding-top: 20px !important;
+}
+.clearcookies {
+  background-color: #ffc3a8 !important;
+}
