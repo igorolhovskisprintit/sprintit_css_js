@@ -1,0 +1,29 @@
+@media (max-width: 480px) {
+    .lang_del_m {
+        display: none;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .s_cover h1 > font {
+        hyphens: none !important;
+    }
+}
+
+@media (min-width: 481px)
+{
+    .s_cover h1 > font > br {
+        display: none;
+    }
+}
+
+#wrapwrap.homepage .s_cover h1 > font {
+    hyphens: none !important;
+}
+
+@media (max-width: 767px) {
+    .s_cover h1 > font {
+        font-size: 40px !important;
+    }
+}
