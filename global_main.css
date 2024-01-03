@@ -49,6 +49,11 @@ html[lang='en-GB'] header .navbar-brand.logo img {
         hyphens: none !important;
     }
 }
+
+.o_header_is_scrolled > #oe_structure_header_contact_1 {
+    display: none;
+}
+
 #website_cookies_bar .modal-content.oe_structure > *
 {
     background-color: #003c57 !important;
