@@ -4,7 +4,13 @@
     padding-top: 0;
     padding-bottom: 0;
     border-top: 1px solid;
+    color: #fff;
     padding-top: 0;
+}
+#website_cookies_bar .modal-content.oe_structure h3 {
+    color: #fff;
+    margin-bottom: 15px;
+    margin-top: 7.5px;
 }
 #website_cookies_bar .modal-content.oe_structure .row 
 {
@@ -12,9 +18,9 @@
     justify-content: center;
 }
 #website_cookies_bar .modal-content.oe_structure .row .btn {
-    border-color: #c26eaa !important;
-    color: #fff !important;
-    background-color: #c26eaa !important;
+    border-color: #C5A25E !important;
+    color: #000 !important;
+    background-color: #C5A25E !important;
     border-radius: 15px;
     text-transform: uppercase;
     font-weight: bold;
