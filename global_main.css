@@ -1,3 +1,54 @@
+html .jumbotron {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+html[lang='en-GB'] footer#bottom ul li {
+    padding-bottom: 0.25rem;
+    padding-top: 0.25rem;
+}
+html[lang='en-GB'] footer#bottom ul li > i,
+html[lang='en-GB'] footer#bottom ul li > img {
+    margin-right: 8px;
+}
+html[lang='en-GB'] footer#bottom ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+html[lang='en-GB'] address span[itemprop=name] {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+html[lang='en-GB'] .col-lg-4 address .fa-map-marker {
+    display: none;
+}
+
+html[lang='en-GB'] .col-lg-4 address + .alert {
+    display: none;
+}
+
+html[lang='en-GB'] #o_wblog_post_top {
+    padding-top: 0;
+}
+
+html[lang='en-GB'] #o_wblog_post_content .css_editable_mode_hidden.text-muted 
+{
+    display: none;
+}
+
+html[lang='en-GB'] header .navbar-brand.logo img {
+    height: 3.275rem;
+}
+
+@media (min-width: 768px)
+{
+    html[lang='en-GB'] h1 > font {
+        hyphens: none !important;
+    }
+}
 #website_cookies_bar .modal-content.oe_structure > *
 {
     background-color: #003c57 !important;
