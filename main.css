@@ -27,3 +27,8 @@
         font-size: 40px !important;
     }
 }
+
+.s_banner .o_cc1.container-fluid.py-5.rounded.o_cc {
+    padding-left: 45px;
+    padding-right: 45px;
+}
