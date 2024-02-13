@@ -21,4 +21,8 @@ $(window).on("load", function() {
             }, 1000);
         }
     }
+    
+    $("#cookies-consent-all").on("click touch", function() {
+        $("#cookies-consent-all").attr("href", "#");
+    });
 })
