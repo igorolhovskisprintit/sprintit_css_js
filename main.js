@@ -25,6 +25,24 @@ $(window).on("load", function() {
 })
 
 $(document).ready(function() {
+    const cookies = document.cookie.split(";");
+    for (let i = 0; i < cookies.length; i++) {
+        const cookie = cookies[i];
+        const eqPos = cookie.indexOf("=");
+        const name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+
+        if(name == ' website_cookies_bar' && cookie.substr(eqPos+1) != "" && website_cookies_bar('website_cookies_bar') == '') {
+            var url = window.location.pathname;
+            let path = url.split("/");
+            path.pop();
+            url = path.join("/");
+            document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=" + url;
+            document.cookie = "website_cookies_bar=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/";
+        }
+        if(name == 'website_cookies_bar' && cookie.substr(eqPos+1) == "") {
+            document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=" + window.location.pathname;
+        }
+    }
     var pathname = window.location.pathname;
     $("#website_cookies_bar a").each(function() {
         if($(this).attr("href") == pathname && $(this).attr("href").length > 2) {
