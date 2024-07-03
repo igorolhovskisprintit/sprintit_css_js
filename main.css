@@ -85,3 +85,6 @@
 #website_cookies_bar .modal-content.oe_structure > .pt32 {
     padding-top: 20px !important;
 }
+.o_wblog_post_title .link-white #o_wblog_post_subtitle {
+    color: white;
+}
