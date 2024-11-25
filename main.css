@@ -93,6 +93,10 @@ header .navbar-brand.logo img {
     height: 5rem;
 }
 
+.o_header_affixed.o_header_is_scrolled .navbar-brand img {
+    height: 4rem;
+}
+
 @media (max-width: 767.98px) {
     header .navbar-brand.logo img {
         max-height: 4rem;
