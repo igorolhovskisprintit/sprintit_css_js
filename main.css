@@ -88,3 +88,16 @@
 .o_wblog_post_title .link-white #o_wblog_post_subtitle {
     color: white;
 }
+
+header .navbar-brand.logo img {
+    height: 5rem;
+}
+
+@media (max-width: 767.98px) {
+    header .navbar-brand.logo img {
+        max-height: 4rem;
+    }
+    header .navbar-brand, header .navbar-brand.logo {
+        margin-right: 0;
+    }
+}
