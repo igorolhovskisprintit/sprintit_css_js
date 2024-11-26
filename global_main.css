@@ -39,8 +39,24 @@ html[lang='en-GB'] #o_wblog_post_content .css_editable_mode_hidden.text-muted
     display: none;
 }
 
+
+
+
 html[lang='en-GB'] header .navbar-brand.logo img {
-    height: 3.275rem;
+    height: 5rem;
+}
+
+html[lang='en-GB'] .o_header_affixed.o_header_is_scrolled .navbar-brand img {
+    height: 4rem;
+}
+
+@media (max-width: 767.98px) {
+    html[lang='en-GB'] header .navbar-brand.logo img {
+        max-height: 4rem;
+    }
+    html[lang='en-GB'] header .navbar-brand, header .navbar-brand.logo {
+        margin-right: 0;
+    }
 }
 
 @media (min-width: 768px)
