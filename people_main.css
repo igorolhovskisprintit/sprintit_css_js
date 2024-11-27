@@ -112,3 +112,7 @@ html .btn {
     margin-top: 7.5px;
 }
 }
+#o_wblog_posts_loop .o_wblog_post time {
+    visibility: hidden;
+    opacity: 0;
+}
