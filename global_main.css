@@ -117,3 +117,7 @@ html[lang='en-GB'] .o_header_affixed.o_header_is_scrolled .navbar-brand img {
 #top_menu > li > a.nav-link {
     text-transform: uppercase
 }
+#o_wblog_posts_loop .o_wblog_post time {
+    visibility: hidden;
+    opacity: 0;
+}
