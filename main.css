@@ -105,3 +105,8 @@ header .navbar-brand.logo img {
         margin-right: 0;
     }
 }
+
+#o_wblog_posts_loop .o_wblog_post time {
+    visibility: hidden;
+    opacity: 0;
+}
